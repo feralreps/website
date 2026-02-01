@@ -44,7 +44,7 @@ export function Navigation() {
               <img src="/assets/linkedin.svg" alt="" width="24" height="24" />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/feralreps"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -103,7 +103,7 @@ export function Navigation() {
               <a href="#" aria-label="LinkedIn" className={styles.socialLink}>
                 <img src="/assets/linkedin.svg" alt="" width="32" height="32" />
               </a>
-              <a href="#" aria-label="Instagram" className={styles.socialLink}>
+              <a href="https://www.instagram.com/feralreps" aria-label="Instagram" className={styles.socialLink}>
                 <img src="/assets/instagram.svg" alt="" width="32" height="32" />
               </a>
             </div>
