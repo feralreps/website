@@ -1,0 +1,39 @@
+:root {
+  /* Colors */
+  --color-primary: #E3563F;
+  --color-background-dark: #000000;
+  --color-background-light: #FFFFFF;
+  --color-text-light: #FFFFFF;
+  --color-text-dark: #000000;
+
+  /* Typography */
+  --font-family: 'Inter', sans-serif;
+  --font-size-base: 16px;
+  --font-size-nav: 14px;
+  --font-size-heading: clamp(2.5rem, 6vw, 4.5rem);
+  --font-size-subheading: clamp(1rem, 2.5vw, 1.25rem);
+  --font-size-body: clamp(0.875rem, 1.5vw, 1rem);
+  --font-size-roster: clamp(1.5rem, 4vw, 3rem);
+
+  /* Spacing */
+  --nav-height: 80px;
+  --section-padding: 2rem;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-medium: 0.4s ease;
+  --transition-slow: 0.8s ease;
+
+  /* Z-index layers */
+  --z-video: 0;
+  --z-content: 1;
+  --z-nav: 100;
+  --z-menu: 200;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --nav-height: 60px;
+    --font-size-nav: 12px;
+  }
+}

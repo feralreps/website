@@ -1,0 +1,50 @@
+.contact {
+  background-color: var(--color-background-light);
+  color: var(--color-text-dark);
+  padding: var(--nav-height) var(--section-padding) 2rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.name {
+  font-size: clamp(1.75rem, 4vw, 3rem);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.email {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 400;
+  color: var(--color-text-dark);
+  transition: color var(--transition-fast);
+}
+
+.email:hover {
+  color: var(--color-primary);
+}
+
+.logo {
+  margin-top: 4rem;
+}
+
+.logo img {
+  width: 120px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    margin-top: 3rem;
+  }
+
+  .logo img {
+    width: 80px;
+  }
+}

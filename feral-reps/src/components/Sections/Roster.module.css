@@ -1,0 +1,54 @@
+.roster {
+  background-color: var(--color-background-light);
+  color: var(--color-text-dark);
+  padding: var(--nav-height) var(--section-padding) 2rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.companyList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.companyLink {
+  font-size: var(--font-size-roster);
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: var(--color-text-dark);
+  transition: color var(--transition-fast);
+  display: inline-block;
+  padding: 0.25rem 0;
+}
+
+.companyLink:hover {
+  color: var(--color-primary);
+}
+
+.logo {
+  margin-top: 2rem;
+}
+
+.logo img {
+  width: 120px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .companyList {
+    gap: 0.125rem;
+  }
+
+  .logo img {
+    width: 80px;
+  }
+}
