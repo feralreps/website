@@ -9,7 +9,6 @@ const companies = [
   { name: 'CABIN EDIT', url: 'https://www.cabinedit.com/eu/home' },
   { name: 'ENTOURAGE', url: 'https://www.entourage-global.com/' },
   { name: 'PARK PICTURES', url: 'https://parkpictures.com/directors' },
-  { name: 'SPINDLE', url: 'https://www.spindle.co/' },
   { name: 'SYSTMS', url: 'https://www.systms.ai/' },
   { name: 'WAKE THE TOWN', url: 'https://wakethetown.com/?filter=current' },
 ];
