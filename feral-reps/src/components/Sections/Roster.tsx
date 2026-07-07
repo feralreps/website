@@ -6,6 +6,7 @@ import styles from './Roster.module.css';
 
 const companies = [
   { name: 'ANONYMOUS CONTENT', url: 'https://www.anonymouscontent.com/work/uk/directors/anonymous-content/' },
+  { name: 'BLINK PRODUCTIONS', url: 'https://blinkprods.com/' },
   { name: 'CABIN', url: 'https://www.cabinedit.com/eu/home' },
   { name: 'ENTOURAGE', url: 'https://www.entourage-global.com/' },
   { name: 'PARK PICTURES', url: 'https://parkpictures.com/directors' },
