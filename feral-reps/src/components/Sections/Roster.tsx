@@ -8,6 +8,7 @@ const companies = [
   { name: 'ANONYMOUS CONTENT', url: 'https://www.anonymouscontent.com/work/uk/directors/anonymous-content/' },
   { name: 'BLINK PRODUCTIONS', url: 'https://blinkprods.com/' },
   { name: 'CABIN', url: 'https://www.cabinedit.com/eu/home' },
+  { name: 'DROOL', url: 'https://www.droolprods.com' },
   { name: 'ENTOURAGE', url: 'https://www.entourage-global.com/' },
   { name: 'PARK PICTURES', url: 'https://parkpictures.com/directors' },
   { name: 'SYSTMS', url: 'https://www.systms.ai/' },
