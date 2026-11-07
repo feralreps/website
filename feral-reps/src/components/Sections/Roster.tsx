@@ -5,7 +5,6 @@ import { useActiveSection } from '../../hooks/useActiveSection';
 import styles from './Roster.module.css';
 
 const companies = [
-  { name: 'ANONYMOUS CONTENT', url: 'https://www.anonymouscontent.com/work/uk/directors/anonymous-content/' },
   { name: 'BLINK PRODUCTIONS', url: 'https://blinkprods.com/' },
   { name: 'CABIN', url: 'https://www.cabinedit.com/eu/home' },
   { name: 'DROOL', url: 'https://www.droolprods.com' },
